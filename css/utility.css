@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+}
+
+
+.center{
+    height: 97vh;
+    width: 99.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.textCenter{
+    text-align: center;
+}
+.bred{
+    border: 2px solid red;
+}
+
+.bblack{
+    border: 2px solid black;
+}
+
+.bblue{
+    border: 2px solid blue;
+}
+
+.bgreen{
+    border: 2px solid green;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#yellow{
+    background-color: yellow ;
+}

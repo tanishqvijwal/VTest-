@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTest</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utility.css">
+</head> 
+
+<body>
+    <h1>BEST OF LUCK</h1>
+    <div class="container flex">
+        <div class="question bblack">
+            <form class="Ques" action="">
+                <div class="qa-wrapper">
+                  <div class="question-text"></div>
+                  <div class="options"></div>
+                </div>
+              
+                <div class="quesChange flex bblue">
+                  <img src="../images/hambirger.png" alt="" id="ham">
+                  <div class="buttons">
+                    <button id="prev" style="display: none;">Prev</button>
+                    <button id="next" style="display: block;">Next</button>
+                    <button type="submit" id="Submit" style="display: none;">Submit</button>
+                  </div>
+                </div>
+              </form>
+              
+        </div>
+        <div class="details flex bblack">
+            <div class="quesNo bblue">
+                <!-- Question numbers will be dynamically inserted here -->
+            </div>
+            <div class="quesInfo flex bblue">
+                <div class="quesAtt flex">
+                    <div class="circle"></div>
+                    <span>Attempted</span>
+                </div>
+                <div class="quesAtt flex">
+                    <div class="circle" id="orange"></div>
+                    <span>Not Attempted</span>
+                </div>
+                <div class="quesAtt flex">
+                    <div class="circle" id="yellow"></div>
+                    <span>Current Question</span>
+                </div>
+            </div>
+        </div>
+        <div class="warningContainer bblack">
+            <div class="warningBox">
+                <p id="message">You can't leave window during test. After one more try you'll be disqualified</p>
+                <button class="closeBtn">Close</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../js/script.js"></script>
+    <script type="module" src="../backend/app.js"></script>
+</body>
+</html>
